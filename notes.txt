@@ -1,0 +1,22 @@
+Fine grained checkpointing
+- Big challenge
+
+Read trace capturing papers and replay
+    - Eric Rotenberg (trace processors)
+    - Yan Solihin
+    - Glenn Ryanman
+
+Software Checkpointing
+    - Stephan
+    - Ulia?
+
+Patterns that tell if there are any violation in properties
+
+1. Look at each one of the structures and do time based snapshots
+    for ROB - Tail reaches head, Checkpoint.
+2. Combination of Enforcement in hardware and violations
+    - Caches could do that.
+    - Queues would be different
+    - In ROB, use taint information to decide if you have to print stuff out.
+
+Ruby lee's paper - graph models for Speculative attacks (HPCA 2021)
